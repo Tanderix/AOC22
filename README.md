@@ -1,2 +1,2 @@
-# AOC22
-Advent of Code 2022 solutions
+# Advent of Code 22
+My *Advent of Code 2022* solutions
