@@ -12,11 +12,11 @@ for asspair in f:
     l1 = (toList(e1))
     l2 = (toList(e2))
 
-    # Part 1
+    # Part 2
     if set(l1) & set(l2) != set():
         overlap += 1
 
-    # Part 2
+    # Part 1
     if set(l1) & set(l2) == set(l2) or set(l1) & set(l2) == set(l1):
         contained += 1
 
