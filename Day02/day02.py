@@ -53,7 +53,7 @@ def part2(elf, me):
     return me
 
 
-f = open("C:\\Users\\andre\\PycharmProjects\\AOC22\\d2input.txt", "r")
+f = open("d2input.txt", "r")
 matchscore = 0
 for game in f:
     elf, me = game.split(" ")
