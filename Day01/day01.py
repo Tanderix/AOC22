@@ -10,7 +10,7 @@ def readfile(f):
     return sums
 
 
-f = open("C:\\Users\\andre\\PycharmProjects\\AOC22\\d1input.txt", "r")
+f = open("d1input.txt", "r")
 elist = readfile(f)
 elist.sort(reverse=True)
 print(elist[0])
